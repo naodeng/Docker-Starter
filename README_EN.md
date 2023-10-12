@@ -6,9 +6,20 @@
 - docker environment build please google search complete
 
 ### WordPress docker demo
-- Enter to wordpress folder
+#### apple silicon Mac
+- Go to the wordpress folder under the project
 
-- 运行命令即可
+- Go to the arm folder under the wordpress folder
+
+- Just run the command
+
+    docker-compose up --build
+
+
+#### intel silicon Mac
+- Go to the wordpress folder under the project
+
+- Just run the command
 
     docker-compose up --build
 
